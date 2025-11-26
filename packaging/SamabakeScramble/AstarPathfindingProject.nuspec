@@ -5,6 +5,9 @@
     <version>$gameVersion$</version>
     <description>Used by game AI</description>
     <authors>Illgames</authors>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
   </metadata>
   <files>
     <file src="libraries\AstarPathfindingProject.*" target="lib\net60" />
