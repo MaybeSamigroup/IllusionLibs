@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$gameVersion$</version>
+    <description>All packages required to compile a plugin, no need to install any of them manually</description>
+    <authors>Illgames</authors>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="IllusionLibs.HoneyCome.Assembly-CSharp" version="$gameVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.Il2Cppmscorlib" version="$gameVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.AIModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.AnimationModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.AssetBundleModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.AudioModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.ClothModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.ImageConversionModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.PhysicsModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.ScreenCaptureModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.Terrain" version="$unityVersion$" />
+        <dependency id="IllusionLibs.HoneyCome.UnityEngine.UI" version="$unityVersion$" />
+        <dependency id="BepInEx.KeyboardShortcut.IL2CPP" version="[18.3.0,)" />
+        <dependency id="BepInEx.Unity.IL2CPP" version="[6.0.0-be.738,)" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>

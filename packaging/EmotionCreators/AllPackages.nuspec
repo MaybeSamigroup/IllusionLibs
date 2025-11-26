@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$gameVersion$</version>
+    <description>All packages required to compile a plugin, no need to install any of them manually</description>
+    <authors>Illusion</authors>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="IllusionLibs.EmotionCreators.Assembly-CSharp-firstpass" version="$gameVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.Assembly-CSharp" version="$gameVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.IL" version="$gameVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.MoreAccessories" version="2.0.20" />
+        <dependency id="IllusionLibs.EmotionCreators.TextMeshPro" version="$gameVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UniRx" version="$gameVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.AnimationModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.AssetBundleModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.AudioModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.ClothModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.CoreModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.ImageConversionModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.IMGUIModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.PhysicsModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.ScreenCaptureModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.TextRenderingModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.UI" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.UIModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.EmotionCreators.UnityEngine.UnityWebRequestWWWModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.BepInEx" version="[5.4.22,)" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>

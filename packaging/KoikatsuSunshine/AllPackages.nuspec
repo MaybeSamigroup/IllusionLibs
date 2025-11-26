@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$gameVersion$</version>
+    <description>All packages required to compile a plugin, no need to install any of them manually</description>
+    <authors>Illusion</authors>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="IllusionLibs.KoikatsuSunshine.Assembly-CSharp-firstpass" version="$gameVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.Assembly-CSharp" version="$gameVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.Cinemachine" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.DOTween" version="$gameVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.MoreAccessories" version="2.0.20" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.Obi" version="$gameVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UniRx" version="$gameVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UniTask" version="$gameVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.Unity.Postprocessing.Runtime" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.Unity.ResourceManager" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.Unity.TextMeshPro" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.AIModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.AnimationModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.AssetBundleModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.AudioModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.ClothModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.CoreModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.ImageConversionModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.IMGUIModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.InputLegacyModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.JSONSerializeModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.ParticleSystemModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.PhysicsModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.ScreenCaptureModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.TextRenderingModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.UI" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.UIModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.UnityWebRequestAudioModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.UnityWebRequestModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.UnityWebRequestTextureModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.UnityWebRequestWWWModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.VRModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.KoikatsuSunshine.UnityEngine.XRModule" version="$unityVersion$" />
+        <dependency id="IllusionLibs.BepInEx" version="[5.4.22,)" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>

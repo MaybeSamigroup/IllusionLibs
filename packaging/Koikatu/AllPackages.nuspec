@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$gameVersion$</version>
+    <description>All packages required to compile a plugin, no need to install any of them manually</description>
+    <authors>Illusion</authors>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="IllusionLibs.Koikatu.Assembly-CSharp-firstpass" version="$gameVersion$" />
+        <dependency id="IllusionLibs.Koikatu.Assembly-CSharp" version="$gameVersion$" />
+        <dependency id="IllusionLibs.Koikatu.MoreAccessories" version="2.0.20" />
+        <dependency id="IllusionLibs.Koikatu.Sirenix.Serialization" version="$gameVersion$" />
+        <dependency id="IllusionLibs.Koikatu.TextMeshPro" version="$gameVersion$" />
+        <dependency id="IllusionLibs.Koikatu.UnityEngine" version="$unityVersion$" />
+        <dependency id="IllusionLibs.Koikatu.UnityEngine.UI" version="$unityVersion$" />
+        <dependency id="IllusionLibs.Koikatu.Vectrosity" version="$gameVersion$" />
+        <dependency id="IllusionLibs.BepInEx" version="[5.4.22,)" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+  </files>
+</package>
