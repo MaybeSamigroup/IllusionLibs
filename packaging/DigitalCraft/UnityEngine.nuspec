@@ -5,7 +5,6 @@
     <version>$unityVersion$</version>
     <description>Unity core libraries</description>
     <authors>Unity</authors>
-    <iconUrl>https://raw.githubusercontent.com/IllusionMods/IllusionLibs/refs/heads/master/packaging/Aicomi/icon.jpg</iconUrl>
     <dependencies>
       <group targetFramework="net6.0" />
     </dependencies>
