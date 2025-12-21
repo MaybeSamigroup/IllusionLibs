@@ -4,7 +4,7 @@
     <id>$id$</id>
     <version>$gameVersion$</version>
     <description>All packages required to compile a plugin, no need to install any of them manually</description>
-    <authors>illgames</authors>
+    <authors>Illgames</authors>
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="IllusionLibs.DigitalCraft.GameAssembly" version="$gameVersion$" />
